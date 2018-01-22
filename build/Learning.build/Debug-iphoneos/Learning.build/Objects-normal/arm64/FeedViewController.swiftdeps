@@ -1,0 +1,678 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedViewController"
+provides-nominal:
+- "8Learning18FeedViewControllerC"
+provides-member:
+- ["8Learning18FeedViewControllerC", ""]
+provides-dynamic-lookup:
+- "collectionView"
+- "datasource"
+- "refreshButtonAction"
+- "viewDidLoad"
+- "viewWillDisappear"
+depends-top-level:
+- !private "??"
+- "APIHandler"
+- !private "APIPayload"
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "DispatchQueue"
+- !private "Feed"
+- "FeedCollectionViewDatasource"
+- "FeedViewController"
+- !private "String"
+- !private "StringLiteralType"
+- !private "TTGSnackbar"
+- !private "TTGSnackbarDuration"
+- "UICollectionView"
+- "UIViewController"
+- !private "URL"
+- !private "UnicodeScalarType"
+- !private "assertionFailure"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["8Learning10APIHandlerV", "getFlickerFeed"]
+- !private ["8Learning10APIHandlerV", "init"]
+- !private ["8Learning10APIPayloadV", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "success"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "APIHandler"]
+- !private ["s7CVarArgP", "APIPayload"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "OnItemSelection"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TTGSnackbar"]
+- !private ["s7CVarArgP", "TTGSnackbarDuration"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "apiHandler"]
+- !private ["s7CVarArgP", "assertionFailure"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "datasource"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadFeed"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setupCollectionViewDatasource"]
+- !private ["s7CVarArgP", "showMessage"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["s7CVarArgP", "willDisplayFooter"]
+- ["s7CVarArgP", ""]
+- !private ["s11ClosedRangeV", "success"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "success"]
+- !private ["s10ComparableP", "init"]
+- !private ["s20CountableClosedRangeV", "success"]
+- !private ["s14CountableRangeV", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "APIHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "APIPayload"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "OnItemSelection"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TTGSnackbar"]
+- !private ["s28CustomDebugStringConvertibleP", "TTGSnackbarDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "apiHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "assertionFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "datasource"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadFeed"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setupCollectionViewDatasource"]
+- !private ["s28CustomDebugStringConvertibleP", "showMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s28CustomDebugStringConvertibleP", "willDisplayFooter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "success"]
+- !private ["s23CustomStringConvertibleP", "APIHandler"]
+- !private ["s23CustomStringConvertibleP", "APIPayload"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "OnItemSelection"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TTGSnackbar"]
+- !private ["s23CustomStringConvertibleP", "TTGSnackbarDuration"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "apiHandler"]
+- !private ["s23CustomStringConvertibleP", "assertionFailure"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "datasource"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadFeed"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setupCollectionViewDatasource"]
+- !private ["s23CustomStringConvertibleP", "showMessage"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["s23CustomStringConvertibleP", "willDisplayFooter"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "APIHandler"]
+- !private ["s9EquatableP", "APIPayload"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "OnItemSelection"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "TTGSnackbar"]
+- !private ["s9EquatableP", "TTGSnackbarDuration"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "apiHandler"]
+- !private ["s9EquatableP", "assertionFailure"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "collectionView"]
+- !private ["s9EquatableP", "configure"]
+- !private ["s9EquatableP", "datasource"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadFeed"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "setupCollectionViewDatasource"]
+- !private ["s9EquatableP", "showMessage"]
+- !private ["s9EquatableP", "success"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillDisappear"]
+- !private ["s9EquatableP", "willDisplayFooter"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "success"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["8Learning4FeedV", "title"]
+- !private ["8Learning28FeedCollectionViewDatasourceC", "OnItemSelection"]
+- !private ["8Learning28FeedCollectionViewDatasourceC", "configure"]
+- !private ["8Learning28FeedCollectionViewDatasourceC", "willDisplayFooter"]
+- ["8Learning18FeedViewControllerC", "APIHandler"]
+- !private ["8Learning18FeedViewControllerC", "APIPayload"]
+- ["8Learning18FeedViewControllerC", "Bool"]
+- !private ["8Learning18FeedViewControllerC", "DispatchQueue"]
+- !private ["8Learning18FeedViewControllerC", "Feed"]
+- ["8Learning18FeedViewControllerC", "FeedCollectionViewDatasource"]
+- !private ["8Learning18FeedViewControllerC", "String"]
+- !private ["8Learning18FeedViewControllerC", "TTGSnackbar"]
+- !private ["8Learning18FeedViewControllerC", "TTGSnackbarDuration"]
+- ["8Learning18FeedViewControllerC", "UICollectionView"]
+- !private ["8Learning18FeedViewControllerC", "URL"]
+- ["8Learning18FeedViewControllerC", "apiHandler"]
+- !private ["8Learning18FeedViewControllerC", "apiHandler.storage"]
+- !private ["8Learning18FeedViewControllerC", "assertionFailure"]
+- ["8Learning18FeedViewControllerC", "collectionView"]
+- ["8Learning18FeedViewControllerC", "datasource"]
+- ["8Learning18FeedViewControllerC", "deinit"]
+- ["8Learning18FeedViewControllerC", "init"]
+- !private ["8Learning18FeedViewControllerC", "loadFeed"]
+- !private ["8Learning18FeedViewControllerC", "print"]
+- ["8Learning18FeedViewControllerC", "refreshButtonAction"]
+- !private ["8Learning18FeedViewControllerC", "setupCollectionViewDatasource"]
+- !private ["8Learning18FeedViewControllerC", "showMessage"]
+- ["8Learning18FeedViewControllerC", "viewDidLoad"]
+- ["8Learning18FeedViewControllerC", "viewWillDisappear"]
+- !private ["s8HashableP", "APIHandler"]
+- !private ["s8HashableP", "APIPayload"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "OnItemSelection"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "TTGSnackbar"]
+- !private ["s8HashableP", "TTGSnackbarDuration"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "apiHandler"]
+- !private ["s8HashableP", "assertionFailure"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "collectionView"]
+- !private ["s8HashableP", "configure"]
+- !private ["s8HashableP", "datasource"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadFeed"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "setupCollectionViewDatasource"]
+- !private ["s8HashableP", "showMessage"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillDisappear"]
+- !private ["s8HashableP", "willDisplayFooter"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "APIHandler"]
+- !private ["So8NSCodingP", "APIPayload"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "TTGSnackbar"]
+- !private ["So8NSCodingP", "TTGSnackbarDuration"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "apiHandler"]
+- !private ["So8NSCodingP", "assertionFailure"]
+- !private ["So8NSCodingP", "collectionView"]
+- !private ["So8NSCodingP", "datasource"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadFeed"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "setupCollectionViewDatasource"]
+- !private ["So8NSCodingP", "showMessage"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "APIHandler"]
+- !private ["So26NSExtensionRequestHandlingP", "APIPayload"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "TTGSnackbar"]
+- !private ["So26NSExtensionRequestHandlingP", "TTGSnackbarDuration"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "apiHandler"]
+- !private ["So26NSExtensionRequestHandlingP", "assertionFailure"]
+- !private ["So26NSExtensionRequestHandlingP", "collectionView"]
+- !private ["So26NSExtensionRequestHandlingP", "datasource"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadFeed"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "setupCollectionViewDatasource"]
+- !private ["So26NSExtensionRequestHandlingP", "showMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "APIHandler"]
+- !private ["So8NSObjectC", "APIPayload"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Feed"]
+- ["So8NSObjectC", "FeedCollectionViewDatasource"]
+- !private ["So8NSObjectC", "OnItemSelection"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TTGSnackbar"]
+- !private ["So8NSObjectC", "TTGSnackbarDuration"]
+- ["So8NSObjectC", "UICollectionView"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "apiHandler"]
+- ["So8NSObjectC", "apiHandler.storage"]
+- !private ["So8NSObjectC", "assertionFailure"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "datasource"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadFeed"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "refreshButtonAction"]
+- ["So8NSObjectC", "setupCollectionViewDatasource"]
+- !private ["So8NSObjectC", "showMessage"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So8NSObjectC", "willDisplayFooter"]
+- !private ["So16NSObjectProtocolP", "APIHandler"]
+- !private ["So16NSObjectProtocolP", "APIPayload"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "OnItemSelection"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "TTGSnackbar"]
+- !private ["So16NSObjectProtocolP", "TTGSnackbarDuration"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "apiHandler"]
+- !private ["So16NSObjectProtocolP", "assertionFailure"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "collectionView"]
+- !private ["So16NSObjectProtocolP", "configure"]
+- !private ["So16NSObjectProtocolP", "datasource"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadFeed"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "setupCollectionViewDatasource"]
+- !private ["So16NSObjectProtocolP", "showMessage"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillDisappear"]
+- !private ["So16NSObjectProtocolP", "willDisplayFooter"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["8Learning13NetworkResultO", "failure"]
+- !private ["8Learning13NetworkResultO", "success"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s22RandomAccessCollectionP", "success"]
+- !private ["s5RangeV", "success"]
+- !private ["s15RangeExpressionP", "success"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "success"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "APIHandler"]
+- !private ["So21UIAppearanceContainerP", "APIPayload"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "TTGSnackbar"]
+- !private ["So21UIAppearanceContainerP", "TTGSnackbarDuration"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "apiHandler"]
+- !private ["So21UIAppearanceContainerP", "assertionFailure"]
+- !private ["So21UIAppearanceContainerP", "collectionView"]
+- !private ["So21UIAppearanceContainerP", "datasource"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadFeed"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setupCollectionViewDatasource"]
+- !private ["So21UIAppearanceContainerP", "showMessage"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So26UICollectionViewDataSourceP", "OnItemSelection"]
+- !private ["So26UICollectionViewDataSourceP", "configure"]
+- !private ["So26UICollectionViewDataSourceP", "willDisplayFooter"]
+- !private ["So24UICollectionViewDelegateP", "OnItemSelection"]
+- !private ["So24UICollectionViewDelegateP", "configure"]
+- !private ["So24UICollectionViewDelegateP", "willDisplayFooter"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "OnItemSelection"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "configure"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "willDisplayFooter"]
+- !private ["So18UIContentContainerP", "APIHandler"]
+- !private ["So18UIContentContainerP", "APIPayload"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "TTGSnackbar"]
+- !private ["So18UIContentContainerP", "TTGSnackbarDuration"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "apiHandler"]
+- !private ["So18UIContentContainerP", "assertionFailure"]
+- !private ["So18UIContentContainerP", "collectionView"]
+- !private ["So18UIContentContainerP", "datasource"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadFeed"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "setupCollectionViewDatasource"]
+- !private ["So18UIContentContainerP", "showMessage"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "APIHandler"]
+- !private ["So18UIFocusEnvironmentP", "APIPayload"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "TTGSnackbar"]
+- !private ["So18UIFocusEnvironmentP", "TTGSnackbarDuration"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "apiHandler"]
+- !private ["So18UIFocusEnvironmentP", "assertionFailure"]
+- !private ["So18UIFocusEnvironmentP", "collectionView"]
+- !private ["So18UIFocusEnvironmentP", "datasource"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadFeed"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setupCollectionViewDatasource"]
+- !private ["So18UIFocusEnvironmentP", "showMessage"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "APIHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "APIPayload"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "TTGSnackbar"]
+- !private ["So30UIPasteConfigurationSupportingP", "TTGSnackbarDuration"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "apiHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "assertionFailure"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "datasource"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadFeed"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupCollectionViewDatasource"]
+- !private ["So30UIPasteConfigurationSupportingP", "showMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "APIHandler"]
+- !private ["So11UIResponderC", "APIPayload"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "Feed"]
+- ["So11UIResponderC", "FeedCollectionViewDatasource"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "TTGSnackbar"]
+- !private ["So11UIResponderC", "TTGSnackbarDuration"]
+- ["So11UIResponderC", "UICollectionView"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "apiHandler"]
+- ["So11UIResponderC", "apiHandler.storage"]
+- !private ["So11UIResponderC", "assertionFailure"]
+- ["So11UIResponderC", "collectionView"]
+- ["So11UIResponderC", "datasource"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadFeed"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "refreshButtonAction"]
+- ["So11UIResponderC", "setupCollectionViewDatasource"]
+- !private ["So11UIResponderC", "showMessage"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "APIHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "APIPayload"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "TTGSnackbar"]
+- !private ["So30UIResponderStandardEditActionsP", "TTGSnackbarDuration"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "apiHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "assertionFailure"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "datasource"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadFeed"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setupCollectionViewDatasource"]
+- !private ["So30UIResponderStandardEditActionsP", "showMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "OnItemSelection"]
+- !private ["So20UIScrollViewDelegateP", "configure"]
+- !private ["So20UIScrollViewDelegateP", "willDisplayFooter"]
+- !private ["So16UIStateRestoringP", "APIHandler"]
+- !private ["So16UIStateRestoringP", "APIPayload"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "TTGSnackbar"]
+- !private ["So16UIStateRestoringP", "TTGSnackbarDuration"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "apiHandler"]
+- !private ["So16UIStateRestoringP", "assertionFailure"]
+- !private ["So16UIStateRestoringP", "collectionView"]
+- !private ["So16UIStateRestoringP", "datasource"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadFeed"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "setupCollectionViewDatasource"]
+- !private ["So16UIStateRestoringP", "showMessage"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "APIHandler"]
+- !private ["So18UITraitEnvironmentP", "APIPayload"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "TTGSnackbar"]
+- !private ["So18UITraitEnvironmentP", "TTGSnackbarDuration"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "apiHandler"]
+- !private ["So18UITraitEnvironmentP", "assertionFailure"]
+- !private ["So18UITraitEnvironmentP", "collectionView"]
+- !private ["So18UITraitEnvironmentP", "datasource"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadFeed"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setupCollectionViewDatasource"]
+- !private ["So18UITraitEnvironmentP", "showMessage"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "APIHandler"]
+- !private ["So16UIViewControllerC", "APIPayload"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "Feed"]
+- ["So16UIViewControllerC", "FeedCollectionViewDatasource"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "TTGSnackbar"]
+- !private ["So16UIViewControllerC", "TTGSnackbarDuration"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", "apiHandler"]
+- ["So16UIViewControllerC", "apiHandler.storage"]
+- !private ["So16UIViewControllerC", "assertionFailure"]
+- ["So16UIViewControllerC", "collectionView"]
+- ["So16UIViewControllerC", "datasource"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadFeed"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "refreshButtonAction"]
+- ["So16UIViewControllerC", "setupCollectionViewDatasource"]
+- !private ["So16UIViewControllerC", "showMessage"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- ["So16UIViewControllerC", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "success"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "success"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "success"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "APIHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "APIPayload"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OnItemSelection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TTGSnackbar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TTGSnackbarDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assertionFailure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "datasource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadFeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupCollectionViewDatasource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willDisplayFooter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_OptionalNilComparisonTypeV", "success"]
+- !private ["s22_RandomAccessIndexableP", "success"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "8Learning10APIHandlerV"
+- !private "8Learning10APIPayloadV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s11ClosedRangeV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s20CountableClosedRangeV"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "8Learning4FeedV"
+- !private "8Learning28FeedCollectionViewDatasourceC"
+- "8Learning18FeedViewControllerC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "8Learning13NetworkResultO"
+- !private "So9OS_objectC"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "a4349eccdf6ecb6c34d96200e8ff3e3e"

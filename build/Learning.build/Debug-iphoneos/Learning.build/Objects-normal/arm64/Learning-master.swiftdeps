@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "4e16619b2abd0485e2787a3ca7cd926e"
+build_time: [1516536863, 105658000]
+inputs:
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/Feed/FeedCollectionViewDatasource.swift": !dirty [1512133546, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/Feed/Feed.swift": !dirty [1512122290, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/Feed/FeedCollectionViewCell.swift": !dirty [1512122233, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/Feed/FeedCollectionViewFooter.swift": !dirty [1512123747, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/APIHandler.swift": !dirty [1512121374, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/AppDelegate.swift": !dirty [1516354765, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/Feed/FeedViewController.swift": !dirty [1512124023, 0]
+  "/Users/abhishekbedi/Downloads/Learning 2/Learning/NetworkHandler.swift": !dirty [1512121374, 0]

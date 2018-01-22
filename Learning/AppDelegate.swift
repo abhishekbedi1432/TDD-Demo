@@ -16,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        if CommandLine.arguments.contains("--uitesting") {
+            resetState()
+        }
+
+
         return true
+    }
+    private func resetState() {
+        let defaultsName = Bundle.main.bundleIdentifier!
+        UserDefaults.standard.removePersistentDomain(forName: defaultsName)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

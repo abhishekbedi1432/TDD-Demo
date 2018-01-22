@@ -10,11 +10,12 @@ import UIKit
 import Kingfisher
 
 class FeedCollectionViewDatasource:NSObject {
+    
     private var collectionView:UICollectionView!
     var willDisplayFooter:(() -> ())?
     var OnItemSelection:((Feed) ->())?
     
-    private var items:[Feed] = [] {
+    var items:[Feed] = [] {
         didSet {
             self.collectionView?.reloadData()
         }
